@@ -158,6 +158,10 @@ fieldset{
    border: solid 1px aqua;
    background-color:  rgba(14, 139, 126, 0.75);
    opacity: 0.7;
+  
+}
+fieldset:hover{
+  cursor: pointer;
 }
 
 form {
@@ -167,7 +171,7 @@ form {
   width:100%;
     
   font-family: sans-serif;
-  padding: 60px;
+  padding:0 450px;
 }
 legend{
  font-size:20px;
@@ -178,7 +182,7 @@ input {
   margin: 16px 20px 16px 55px;
 }
 button {
-  position: absolute;
+ 
   background-color: #4CAF50;
   border: none;
   color: white;
