@@ -24,7 +24,7 @@
                 <a href="#sobre">Sobre</a>
               </li>
               <li>
-                <a href="#">Quartos</a>
+                <a href="quartos.html">Quartos</a>
               </li>
               <li>
                 <a a href="#rota">Rotas</a>
@@ -36,7 +36,7 @@
 
         </div>
       </div>
-      <div class="texto">
+      <div class="caixa-imagem">
         <br>
         <h2>Pousada Secreta</h2>
         <br>
@@ -86,34 +86,49 @@
           <p>Conheça um pouco sobre nossa pousada.</p>
         </div>
 
-        <ul>
+        <ul >
           <li>
-            <p><b>A Pousada Dev</b> dispõe de estacionamento privativo gratuito,
+            <div class="caixa-sobre">
+            <p><b>A Pousada</b> dispõe de estacionamento privativo gratuito,
               piscinaao ar livre</p>
             <img src="/assets/img1.jpg" width="250" alt="imagem de pousada e
               psicina">
+            </div>
           </li>
           <br>
           <li>
+            <div class="caixa-sobre">
             <p><b>Alimentação:</b>a pousada serve café da manhã em estilo
               continental ou buffet.<br>Nossos Restaurantes funcionan 24hrs.</p>
-            <img src="/assets/img3.jpg" width="300" alt="mesa de buffet">
+            <img src="/assets/img3.jpg" width="250" alt="mesa de buffet">
+          </div>
           </li>
           <br>
         </ul>
         <ul>
           <li>
-            <p><b>Nossos Quartos:</b> possuem TV de tela plana a cabo, <br>cozinha
-              compacta e aréa para refeições.Além disso, as unidades da <br><b>Pousada
-                Dev</b> contam com ar-condicionado e guarda-roupa.</p>
-            <img src="/assets/img2.jpg" width="300" alt="imagem de quarto-familia">
+            <div class="caixa-sobre">
+            <p><b>Nossos Quartos:</b> possuem TV de tela plana a cabo,cozinha
+              compacta e aréa para refeições.Além disso, as unidades da contam com ar-condicionado e guarda-roupa.</p>
+            <img src="/assets/img2.jpg" width="250" alt="imagem de quarto-familia">
+          </div>
       </li>
+      <li><div class="caixa-sobre">
+        <p><b>Recepção:</b> Aberta 24hrs.</p>
+        <img src="/assets/img5.jpg" width="240">
+      </div></li>
       </ul>
       <form>
         <fieldset>
-          <legend>Insira seus dados para mais informações</legend>
+          <legend>Reserve sua estadia</legend>
           <label>Nome</label>
           <input type="text" name="endereco" required />
+          <div class="pessoas">
+          <label>Adultos</label>
+          <input class="quantidade" type="number" name="numero" required minlength="0" maxlength="10"  />
+          <label>Crianças</label>
+          <input class="quantidade"  type="number" name="numero" required   />
+        </div>
           <label>Número(WhatsApp)</label>
           <input type="number" name="numero" required   placeholder="(xx)xxx-xxxx"/>
           <label>Data das suas Férias</label>
@@ -124,30 +139,42 @@
         
         <button type="submit">ENVIAR</button>
         </form>
-       <footer   class="rodape">      
-      
-      <div  class="rodape__principal" >
-
-          <h2> Entre em contato conosco:</h2>
-        <p><img src="/assets/icones/endereco.png" width="28" alt="">Angra dos Reis,RJ</p>
-
-          <p><img src="/assets/icones/telefone.png" width="28" alt="Ícone telefone">
-               Cel:(55)1170707070</p>
-
-
-
-          <p> <img src="/assets/icones/calendario.png" width="28"
-              alt="cendario">Faça reserva no booking.com</p>
-
-
-
+        <footer   class="rodape">   
+          <div class="quemsomos">
+          <h3>Quem somos</h3>
+              
+            <span>Somos uma Pousada em Angra dos Reis, Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Atque commodi esse odio ab similique<br> praesentium corporis at consectetur ut? <br>Reiciendis quis architecto explicabo excepturi magni id<br> rem quisquam possimus fugiat.</span>
+          </div>   
+          <div>
+          <div  class="rodape__principal" >
+            <ol>
+              <li>  <h2> Entre em contato conosco:</h2>
+               <p><img src="/assets/icones/endereco.png"  alt="">Angra dos Reis,RJ</p>
+             </li> 
+             <li>
+                 <p><img src="/assets/icones/telefone.png" alt="Ícone telefone">
+                      Cel:(55)1170707070</p>
+               </li>
+               <li>
+                 <p> <img src="/assets/icones/calendario.png" alt="cendario">Faça  Reserva no booking.com</p>
+                   </li>
+                   </ol>
+                  </div>
+                  <div class="rodape-icones">
+                  <a href="https://twitter.com/" target="_blank"><img src="/assets/icones/twitter.png" width="25"height="25" alt="twitter"></a> 
+                  <a href="https://www.linkedin.com/" target="_blank">  <img src="/assets/icones/linkedin.png" width="25"height="25" alt="linkedin"></a>
+                 <a href="https://instagram.com" target="_blank"><img src="/assets/icones/instagram.png" width="25"height="25" alt="instagram"></a>  
+                  <a href="#"><img src="/assets/icones/whatsapp.png" width="25"  height="25" alt="whatsapp"></a> 
+                  <a href="https://www.facebook.com/" target="_blank"><img src="/assets/icones/facebook.png" width="25" height="25" alt="facebook"> </a> 
+               </div>
+          </div>
+    
+          
+    
+          
+        </footer>
+        <div class="rodape__cc">
+          <p>&copy;MayaraRocha</p>
         </div>
-
-      
-
-      <div class="rodape__cc">
-        <p>&copy;MayaraRocha</p>
-      </div>
-    </footer>
   </body>
 </html>
