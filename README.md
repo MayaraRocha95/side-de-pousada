@@ -1,5 +1,9 @@
 # side-de-pousada
-Um projeto de estudo para mostrar meu aprendizado através de um site de Pousada.
+Um projeto de estudo para mostrar meu aprendizado com HTML, CSS.
+
+### Descrição do projeto
+Um site estático, para fazer reservas com uma página dos quartos para poder selecionar e um formulário para marcar uma reserva e a localização da pousada.
+
 ## Header
 ![Header](/assets/header.png)
 ## Formulário de Reserva
